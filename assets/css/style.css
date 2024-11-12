@@ -309,7 +309,7 @@ header .navbar ul li a:hover {
   background-color: #0685da;
 }
 .social-icons a.github:hover {
-  background-color: #0e0e0e;
+  background-color: #ffdada;
 }
 .social-icons a.twitter:hover {
   background-color: #00aced;
@@ -324,7 +324,7 @@ header .navbar ul li a:hover {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
 .social-icons a.codechef:hover {
-  background: #32506d;
+  background: #0084ff;
 }
 /* social icons end */
 
@@ -607,7 +607,15 @@ header .navbar ul li a:hover {
   font-size: 2rem;
   color: rgb(34, 109, 0);
   text-align: left;
-  margin: 1rem;
+  margin: 0.5rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+.education h5 {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  margin: 0.5rem;
   font-family: "Nunito", sans-serif;
   font-weight: 700;
 }
@@ -935,29 +943,44 @@ header .navbar ul li a:hover {
 /* experience media queries ends */
 /* experience section ends */
 /* contacts section starts */
-.contacts-left{
-  flex-basis: 35%;
-}
-.contacts-right{
-  flex-basis: 60%;
-}
-.contacts-left p{
-   margin-top: 30px;
-}
-.contacts-left p i{
-  color: #000000;
-  margin-right: 15px;
-  font-size: 25px;
+.contacts-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
-.btn.btn2{
-  display: inline-block;
-  background: #ffffff;
-}
-.contacts-right form{
+.container {
+  max-width: 1200px;
   width: 100%;
 }
-form input, form textarea{
+
+.contacts-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.contacts {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
   width: 100%;
   border: 0;
   outline: none;
@@ -968,6 +991,20 @@ form input, form textarea{
   font-size: 18px;
   border-radius: 6px;
 }
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
 
 
 /* contact section starts */
