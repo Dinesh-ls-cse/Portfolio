@@ -201,6 +201,7 @@
         <h3>Bachelor of Engineering</h3>
         <p>Chettinad College Of Engineering And Technology </p>
         <h4>2021-2025</h4>
+        <h5>CGPA: 7.51</h5>
         </div>
     </div>
 
@@ -212,6 +213,7 @@
       <h3>Higher Secondary Certificate</h3>
       <p>Sevai Shanthi Matriculation Higher Secondary School</p>
       <h4>2019-2021 | Completed</h4>
+      <h5>Percentage: 78</h5>
       </div>
     </div>
     <div class="box">
@@ -222,6 +224,7 @@
       <h3>Secondary School Leaving Certificate</h3>
       <p>Sevai Shanthi Matriculation Higher Secondary School</p>
       <h4>2018-2019 | Completed</h4>
+      <h5>Percentage: 67.8</h5>
       </div>
     </div>
 
@@ -262,7 +265,7 @@
         <div class="desc">
           <p>Tourist Guide Using web development</p>
           <div class="btns">
-            <a href="https://aicma.co.in/" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
             <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
@@ -277,7 +280,7 @@
         <div class="desc">
           <p>Smart Waste Management system in Tourism is using Web Development </p>
           <div class="btns">
-            <a href="https://moderntek.co.in/" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
             <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
@@ -292,7 +295,7 @@
         <div class="desc">
           <p>Spam URL Detector Using machine Learning</p>
           <div class="btns">
-            <a href="https://www.deeniyatrugs.com/" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
             <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
@@ -307,7 +310,7 @@
         <div class="desc">
           <p>Inventory Management System Using Web Development</p>
           <div class="btns">
-            <a href="https://ayubrugs.com/" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
             <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
@@ -416,30 +419,36 @@
 
 </section>
 <!-- experience section ends -->
-<section class="contacts" id="contacts">
+<section class="contacts-section" id="contacts">
   <h2 class="heading"><i class="fas fa-address-book"></i>Contact Me</h2>
-  <div id="contacts">
-       <div class="container">
-           <div class="row">
-               <div class="contacts-left">
-               </div>
-               <div class="contacts-right">
-                <form action="https://api.web3forms.com/submit" method="POST">
+  <div class="container">
+    <div class="contacts-wrapper">
+      
+      <!-- Left side: Image -->
+      <div class="image-container">
+        <img src="./assets/images/contact.png" alt="Contact Image">
+      </div>
 
-                  <!-- Replace with your Access Key -->
-                  <input type="hidden" name="access_key" value="4dacc70c-3522-4339-bb7e-b7852384f533">
-              
-                      <input type="text" name="Name" placeholder="Your Name" required>
-                      <input type="email" name="email" placeholder="Youe Email" required>
-                      <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                      <button type="submit" class="btn btn2">Submit</button>
-                   </form>
-               </div>
-           </div>
-       </div>
+      <!-- Right side: Contact form -->
+      <div class="contacts">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="4dacc70c-3522-4339-bb7e-b7852384f533">
+          
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+          <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <div class="button-container">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      
+    </div>
   </div>
-  
-  </section>
+</section>
+
 
 <!-- footer section starts -->
 <section class="footer">
